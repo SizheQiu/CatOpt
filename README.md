@@ -1,5 +1,5 @@
 # Seq2pHopt_v2.0
-A deep learning-based predictor of enzyme optimal pH
+A deep learning-based predictor of enzyme optimal pH <br>
 Protein sequence -> enzyme optimal pH <br>
 Accuracy: RMSE=0.833, R2=0.479. <br>
 Seq2pHopt-v1.0 can be found at https://github.com/SizheQiu/Seq2Topt/blob/main/code/seq2pHopt.py. <br>
