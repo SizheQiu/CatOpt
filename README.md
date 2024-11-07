@@ -9,6 +9,11 @@ Seq2pHopt-v1.0 can be found at https://github.com/SizheQiu/Seq2Topt/blob/main/co
 ```
 python seq2pHopt2.py --input [input.csv] --output [output file name]
 ```
+3. Train the model: <br>
+```
+python run_diffparams.py --train_path [trainset.csv] --test_path [testset.csv]
+```
+The output path and hyperparameters need to be manually edited.
 ## Dependency:
 1.Pytorch: https://pytorch.org/<br>
 2.ESM: https://github.com/facebookresearch/esm<br>
