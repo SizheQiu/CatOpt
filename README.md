@@ -20,3 +20,4 @@ The output path and hyperparameters need to be manually edited.
 3.Scikit-learn: https://scikit-learn.org/<br>
 4.Seaborn statistical data visualization:https://seaborn.pydata.org/index.html<br>
 ## Citation
+Sizhe Qiu, Yishun Lu, Nan-Kai Wang, Jin-Song Gong, Jin-Song Shi, Aidong Yang, Deep learning-based prediction of enzyme optimal pH and design of point mutations to improve acid resistance, https://doi.org/10.1101/2024.11.16.623957
