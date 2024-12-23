@@ -3,6 +3,7 @@ A deep learning-based predictor of enzyme optimal pH <br>
 Protein sequence -> enzyme optimal pH <br>
 Accuracy: RMSE=0.833, R2=0.479. <br>
 Seq2pHopt-v1.0 can be found at https://github.com/SizheQiu/Seq2Topt/blob/main/code/seq2pHopt.py. <br>
+The comparison of Seq2pHopt-v2.0, [EpHod](https://github.com/jafetgado/EpHod), and [OphPred](https://github.com/i-Molecule/optimalPh) can be found in `/data/comparison`. <br>
 ## How to use:
 1. Prepare the input file: a CSV file containing a column "sequence" for protein sequences.<br>
 2. Enter `/code` directory and run prediction: <br>
