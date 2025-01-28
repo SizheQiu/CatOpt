@@ -7,7 +7,7 @@ The comparison of CatOpt, [EpHod](https://github.com/jafetgado/EpHod), and [OphP
 1. Prepare the input file: a CSV file containing a column "sequence" for protein sequences.<br>
 2. Enter `/code` directory and run prediction: <br>
 ```
-python seq2pHopt2.py --input [input.csv] --output [output file name]
+python catopt.py --task pHopt --input [input.csv] --output [output file name]
 ```
 3. Train the model: <br>
 ```
