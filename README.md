@@ -2,12 +2,12 @@
 A deep learning-based predictor of enzyme optimal pH <br>
 Protein sequence -> enzyme optimal pH <br>
 Accuracy: RMSE=0.833, R2=0.479. <br>
-The comparison of CatOpt, [EpHod](https://github.com/jafetgado/EpHod), and [OphPred](https://github.com/i-Molecule/optimalPh) can be found in `/data/comparison`. <br>
+The comparison of CatOpt, [Seq2pHopt](https://github.com/SizheQiu/Seq2Topt), [EpHod](https://github.com/jafetgado/EpHod), and [OphPred](https://github.com/i-Molecule/optimalPh) can be found in `/data/comparison`. <br>
 ## How to use:
 1. Prepare the input file: a CSV file containing a column "sequence" for protein sequences.<br>
 2. Enter `/code` directory and run prediction: <br>
 ```
-python catopt.py --task pHopt --input [input.csv] --output [output file name]
+python catopt.py --task (pHopt,topt,tm) pHopt --input [input.csv] --output [output file name]
 ```
 3. Train the model: <br>
 ```
